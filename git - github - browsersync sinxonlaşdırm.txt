@@ -1,0 +1,14 @@
+git - github - browsersync sinxonlaşdırma kodları
+1.git clone https://github.com/Delevopformiskinli/test_coursera.git
+    cd test_coursera
+    git status
+    git checkout main
+2.mkdir site
+    dəyişiklik əlavə et
+    git status
+3.git add . or  git add site/index.html
+    git status
+    git commit -m "My_First_page."
+    git push
+
+browser-sync start --server --directory --files "*" 
